@@ -6,9 +6,9 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class PaymentResponse {
-    private String errorMessage = "";
+  private String errorMessage = "";
 
-    public boolean isSuccess() {
-        return errorMessage.isEmpty();
-    }
+  public boolean isSuccess() {
+    return errorMessage.isEmpty();
+  }
 }

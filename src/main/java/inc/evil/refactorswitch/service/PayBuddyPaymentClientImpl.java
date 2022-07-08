@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 class PayBuddyPaymentClientImpl implements PaymentClient {
 
-    @Override
-    public PaymentResponse debitCard(Card card, double price) {
-        //call the 3rd party app to process transaction
-        return new PaymentResponse("");
-    }
+  @Override
+  public PaymentResponse debitCard(Card card, double price) {
+    // call the 3rd party app to process transaction
+    return new PaymentResponse("");
+  }
 }
