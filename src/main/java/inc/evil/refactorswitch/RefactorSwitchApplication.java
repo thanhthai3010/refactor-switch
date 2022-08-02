@@ -23,7 +23,7 @@ public class RefactorSwitchApplication {
     return args -> {
       Card card =
           new Card(
-              "Sponge Bob", "8945-7898-7895-7895", LocalDate.MAX, "123", CardType.TRAVEL, true);
+              "Sponge Bob", "8945-7898-7895-7895", LocalDate.MAX, "123", CardType.REWARDS, true);
       Client client = new Client("978456789", "Sponge", "bob", card, true, 19);
       paymentService.payForProduct(1L, client);
     };
